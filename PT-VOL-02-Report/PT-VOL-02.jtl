@@ -1,0 +1,10 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Filename,Latency,Encoding,IdleTime,Connect
+1763484138070,1905,06 - Add to Cart,200,"Number of samples in transaction : 1, number of failing samples : 0","PT-VOL-02 (Cart with 500 items, single static product)  1-1",,true,,1246,467,1,1,null,,0,UTF-8,0,33
+1763484139850,126,POST Add to Cart,200,OK,"PT-VOL-02 (Cart with 500 items, single static product)  1-1",text,true,,1246,467,1,1,http://192.168.1.194/opencart/upload/index.php?route=checkout/cart%7Cadd,,124,UTF-8,0,33
+1763484140029,1156,07 - View Cart,200,"Number of samples in transaction : 1, number of failing samples : 0","PT-VOL-02 (Cart with 500 items, single static product)  1-1",,true,,58411,446,1,1,null,,0,UTF-8,0,0
+1763484141034,151,GET Cart,200,OK,"PT-VOL-02 (Cart with 500 items, single static product)  1-1",text,true,,58411,446,1,1,http://192.168.1.194/opencart/upload/index.php?route=checkout/cart,,147,utf-8,0,0
+1763484141257,1529,08 - Checkout Page,200,"Number of samples in transaction : 1, number of failing samples : 0","PT-VOL-02 (Cart with 500 items, single static product)  1-1",,true,,65671,465,1,1,null,,0,UTF-8,0,0
+1763484142600,186,GET Checkout,200,OK,"PT-VOL-02 (Cart with 500 items, single static product)  1-1",text,true,,65671,465,1,1,http://192.168.1.194/opencart/upload/index.php?route=checkout/checkout&language=en-gb,,174,utf-8,0,0
+1763484142801,1105,SELECT COUNT(*) AS count_before_cleanup,200,OK,tearDown Thread Group 1-1,text,true,,15,0,1,1,null,,1103,UTF-8,0,1096
+1763484143906,13,Cleanup all load test data,200,OK,tearDown Thread Group 1-1,text,true,,9,0,1,1,null,,13,UTF-8,0,0
+1763484143919,6,SELECT COUNT(*) AS count_after_cleanup,200,OK,tearDown Thread Group 1-1,text,true,,22,0,1,1,null,,6,UTF-8,0,0
