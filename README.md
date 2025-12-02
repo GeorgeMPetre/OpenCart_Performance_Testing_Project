@@ -31,23 +31,23 @@ The project follows best practices in performance engineering, including SLA ali
 /OpenCart_Performance_Testing_Project
 
 /reports                                     # One representative HTML report per scenario
-PT-LOAD-01/
-PT-LOAD-02/
-PT-STRESS-01/
-PT-STRESS-02/
-PT-SPIKE-01/
-PT-SPIKE-02/
-PT-END-01/
-PT-END-02/
-PT-SOAK-01/
-PT-VOL-01/
-PT-VOL-02/
-PT-CONF-01-HTTP/
-PT-CONF-01-HTTPS/
-PT-CONF-02-CACHEOFF/
-PT-CONF-02-CACHEON/
-PT-SCALE-01/ (Not Executed - Documentation Only)
-PT-SCALE-02/ (Not Executed - Documentation Only)
+-PT-LOAD-01
+-PT-LOAD-02
+PT-STRESS-01
+PT-STRESS-02
+PT-SPIKE-01
+PT-SPIKE-02
+PT-END-01
+PT-END-02
+PT-SOAK-01
+PT-VOL-01
+PT-VOL-02
+PT-CONF-01-HTTP
+PT-CONF-01-HTTPS
+PT-CONF-02-CACHEOFF
+PT-CONF-02-CACHEON
+PT-SCALE-01 (Not Executed - Documentation Only)
+PT-SCALE-02 (Not Executed - Documentation Only)
 
 /traceability
 OpenCart_Performance_Test_Traking.csv        # Single master JMeter test plan with all scenarios
