@@ -28,36 +28,30 @@ Scalability (Design-only due to environment limits)
 The project follows best practices in performance engineering, including SLA alignment, AutoStop thresholds, throughput monitoring, resource analysis, and IEEE-829 traceability mapping.
 
 2. Repository Structure
-/opencart-performance-testing
-│
-├── OpenCart_Performance_Test_Traking.csv        # Single master JMeter test plan with all scenarios
-│
-├── /reports                         # One representative HTML report per scenario
-│   ├── PT-LOAD-01/
-│   ├── PT-LOAD-02/
-│   ├── PT-STRESS-01/
-│   ├── PT-STRESS-02/
-│   ├── PT-SPIKE-01/
-│   ├── PT-SPIKE-02/
-│   ├── PT-END-01/
-│   ├── PT-END-02/
-│   ├── PT-SOAK-01/
-│   ├── PT-VOL-01/
-│   ├── PT-VOL-02/
-│   ├── PT-CONF-01-HTTP/
-│   ├── PT-CONF-01-HTTPS/
-│   ├── PT-CONF-02-CACHEOFF/
-│   ├── PT-CONF-02-CACHEON/
-│   ├── PT-SCALE-01/ (Not Executed - Documentation Only)
-│   └── PT-SCALE-02/ (Not Executed - Documentation Only)
-│
-├── /traceability
-│   └── Performance_Traceability_Matrix.xlsx
-│
-├── /data
-│   └── user_data.csv (if applicable)
-│
-└── README.md
+/OpenCart_Performance_Testing_Project
+
+/reports                                     # One representative HTML report per scenario
+PT-LOAD-01/
+PT-LOAD-02/
+PT-STRESS-01/
+PT-STRESS-02/
+PT-SPIKE-01/
+PT-SPIKE-02/
+PT-END-01/
+PT-END-02/
+PT-SOAK-01/
+PT-VOL-01/
+PT-VOL-02/
+PT-CONF-01-HTTP/
+PT-CONF-01-HTTPS/
+PT-CONF-02-CACHEOFF/
+PT-CONF-02-CACHEON/
+PT-SCALE-01/ (Not Executed - Documentation Only)
+PT-SCALE-02/ (Not Executed - Documentation Only)
+
+/traceability
+OpenCart_Performance_Test_Traking.csv        # Single master JMeter test plan with all scenarios
+README.md
 
 3. Tools & Versions
 Component	Version
